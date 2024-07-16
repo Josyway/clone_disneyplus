@@ -1,0 +1,39 @@
+@use 'variaveis';
+
+.available-devices {
+    padding: 5.6vw;
+    text-align: center;
+
+    h2{
+        margin-bottom: 24px;
+    }
+
+    &__list {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        list-style: none;
+        gap: 24px;
+
+        @media (max-width: 768px) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        
+        &__item {
+            text-decoration: none;
+
+            h4{
+                margin-top: 20px;
+                margin-bottom: 24px;
+            }
+
+            li {
+                list-style: none;
+            }
+
+            img {
+                max-width: 100%;
+            }
+        
+        }
+    }
+}
