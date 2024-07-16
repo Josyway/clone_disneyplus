@@ -22,7 +22,6 @@
         align-items: center;
         flex-wrap: wrap;
         justify-content: center;
-        }
 
         &__item{
             display: inline-block;
@@ -39,6 +38,8 @@
             }
         }
     }
+
+}
 
 .linguage-selector{
     display: flex;
